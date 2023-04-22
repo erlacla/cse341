@@ -1,26 +1,19 @@
 {
-  "name": "cse341-apicourse-code",
+  "name": "lesson-1",
   "version": "1.0.0",
-  "description": "code to give to students for the cse341 course",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nathanbirch/cse341-apiCourse-code.git"
-  },
-  "author": "Nathan Birch",
+  "keywords": [],
+  "author": "Erin Engler",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nathanbirch/cse341-apiCourse-code/issues"
-  },
-  "homepage": "https://github.com/nathanbirch/cse341-apiCourse-code#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.18.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.22"
   }
 }

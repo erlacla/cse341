@@ -1,9 +1,5 @@
-displayJoke = (req, res) => {
-  const data =
-    'How did the telephone propose to his girlfriend? ...he gave her a ring.';
-  res.status(200).send(data);
-};
+const route = (req, res) => {
+    res.send("Jeremy Engler");
+  };
 
-module.exports = {
-  displayJoke,
-};
+  module.exports = {route};
