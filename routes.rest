@@ -1,4 +1,4 @@
-
+//LOCALHOST
 GET http://localhost:3000   
 ###
 GET http://localhost:3000/username
@@ -11,3 +11,18 @@ GET http://localhost:3000/644ae96e2388fbfbcd46c5c2
 ###
 
 GET http://localhost:3000/644ae96e2388fbfbcd46c5c3
+
+//PRODUCTION
+###
+GET https://cse341-c07f.onrender.com  
+###
+GET https://cse341-c07f.onrender.com/username
+
+###
+GET https://cse341-c07f.onrender.com/644ae96e2388fbfbcd46c5c1
+###
+
+GET https://cse341-c07f.onrender.com/644ae96e2388fbfbcd46c5c2
+###
+
+GET https://cse341-c07f.onrender.com/644ae96e2388fbfbcd46c5c3
