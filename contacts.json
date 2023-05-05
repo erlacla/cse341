@@ -1,25 +1,23 @@
 [
-    {
-        "firstName": "Jeremy",
-        "lastName": "Engler",
-        "email": "j@test.com",
-        "favoriteColor": "green",
-        "birthday": "Feburary 4th 1984"
-    },
-    {
-        "firstName": "Kendra",
-        "lastName": "Engler",
-        "email": "k@test.com",
-        "favoriteColor": "purple",
-        "birthday": "January 7th, 2008"
-    },
-    {
-        "firstName": "Julia",
-        "lastName": "Engler",
-        "email": "jul@test.com",
-        "favoriteColor": "white",
-        "birthday": "May 12th, 2010"
-    }
-
-    
+  {
+    "firstName": "Jeremy",
+    "lastName": "Engler",
+    "email": "j@test.com",
+    "favoriteColor": "green",
+    "birthday": "Feburary 4th 1984"
+  },
+  {
+    "firstName": "Kendra",
+    "lastName": "Engler",
+    "email": "k@test.com",
+    "favoriteColor": "purple",
+    "birthday": "January 7th, 2008"
+  },
+  {
+    "firstName": "Julia",
+    "lastName": "Engler",
+    "email": "jul@test.com",
+    "favoriteColor": "white",
+    "birthday": "May 12th, 2010"
+  }
 ]

@@ -12,6 +12,37 @@ GET http://localhost:3000/644ae96e2388fbfbcd46c5c2
 
 GET http://localhost:3000/644ae96e2388fbfbcd46c5c3
 
+
+
+###
+POST http://localhost:3000/contact HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Paige",
+    "lastName": "Engler",
+    "email": "p@test.com",
+    "favoriteColor": "aqua",
+    "birthday": "January 11th, 2018"
+  }
+
+###
+PUT http://localhost:3000/645538fec5a41679734a56d9 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Paige",
+    "lastName": "Engler",
+    "email": "Paige@test.com",
+    "favoriteColor": "Aqua Marine",
+    "birthday": "July 11th, 2020"
+  }
+
+###
+DELETE http://localhost:3000/645538fec5a41679734a56d9 HTTP/1.1
+content-type: application/json
+
+
 //PRODUCTION
 ###
 GET https://cse341-c07f.onrender.com  
