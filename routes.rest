@@ -45,7 +45,7 @@ content-type: application/json
 
 //PRODUCTION
 ###
-GET https://cse341-c07f.onrender.com  
+GET https://cse341-c07f.onrender.com 
 ###
 GET https://cse341-c07f.onrender.com/username
 
@@ -57,3 +57,34 @@ GET https://cse341-c07f.onrender.com/644ae96e2388fbfbcd46c5c2
 ###
 
 GET https://cse341-c07f.onrender.com/644ae96e2388fbfbcd46c5c3
+
+
+
+
+###
+POST https://cse341-c07f.onrender.com/contact HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Paige",
+    "lastName": "Engler",
+    "email": "p@test.com",
+    "favoriteColor": "aqua",
+    "birthday": "January 11th, 2018"
+  }
+
+###
+PUT https://cse341-c07f.onrender.com/6455768e7c51fdcc36a09e79 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Paige",
+    "lastName": "Engler",
+    "email": "Paige@test.com",
+    "favoriteColor": "Aqua Marine",
+    "birthday": "July 11th, 2020"
+  }
+
+###
+DELETE https://cse341-c07f.onrender.com/6455768e7c51fdcc36a09e79 HTTP/1.1
+content-type: application/json
