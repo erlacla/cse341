@@ -5,7 +5,7 @@ const doc = {
     title: 'Erin Englers API',
     description: 'Description'
   },
-  host: 'https://cse341-c07f.onrender.com/',
+  host: 'https://cse341-c07f.onrender.com',
   schemes: ['http']
 };
 
