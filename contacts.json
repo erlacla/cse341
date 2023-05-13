@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "Erin Englers API",
-    "description": "Description",
+    "description": "Contacts API",
     "version": "1.0.0"
   },
   "host": "cse341-c07f.onrender.com",
