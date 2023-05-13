@@ -88,3 +88,8 @@ content-type: application/json
 ###
 DELETE https://cse341-c07f.onrender.com/6455768e7c51fdcc36a09e79 HTTP/1.1
 content-type: application/json
+
+
+###
+GET https://cse341-c07f.onrender.com/api-docs HTTP/1.1
+content-type: application/json
